@@ -39,7 +39,7 @@ class WxMpConfiguration {
                     configStorage.token = a.token
                     configStorage.aesKey = a.aesKey
                     configStorage
-                }.collect(Collectors.toMap({ obj: WxMpDefaultConfigImpl -> obj.appId }, { a: WxMpDefaultConfigImpl? -> a }) { o: WxMpConfigStorage?, n: WxMpConfigStorage? -> o }))
+                }.collect(Collectors.toMap({ obj: WxMpDefaultConfigImpl -> obj.appId }, { a: WxMpDefaultConfigImpl? -> a }) { o: WxMpConfigStorage?, _: WxMpConfigStorage? -> o }))
         return service
     }
 

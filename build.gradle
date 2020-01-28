@@ -44,6 +44,7 @@ dependencies {
     implementation("com.github.binarywang:weixin-java-miniapp:$wxVersion")
     implementation("com.github.binarywang:weixin-java-open:$wxVersion")
     implementation("com.github.binarywang:weixin-java-pay:$wxVersion")
+    implementation("jaxen:jaxen:1.2.0")
 
     kapt platform("io.micronaut:micronaut-bom:$micronautVersion")
     kapt "io.micronaut:micronaut-inject-java"
