@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: cn.hillwind.wx.demo
+---
+testFramework: kotlintest
+sourceLanguage: kotlin

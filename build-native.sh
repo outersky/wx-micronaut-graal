@@ -1,0 +1,1 @@
+native-image --verbose --no-server --no-fallback --report-unsupported-elements-at-runtime --allow-incomplete-classpath -H:+TraceServiceLoaderFeature -H:+TraceClassInitialization  -H:+ReportExceptionStackTraces -cp build/libs/*-0.1-all.jar
