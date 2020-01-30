@@ -11,7 +11,10 @@ import io.swagger.v3.oas.annotations.info.Info
                 version = "0.1"
         )
 )
-@TypeHint(value = [org.mariadb.jdbc.util.Options::class, org.mariadb.jdbc.Driver::class, org.dom4j.DocumentFactory::class],
+@TypeHint(value = [
+    org.mariadb.jdbc.util.Options::class,
+    org.mariadb.jdbc.Driver::class,
+    org.dom4j.DocumentFactory::class],
         accessType = [TypeHint.AccessType.ALL_PUBLIC])
 object Application {
 
